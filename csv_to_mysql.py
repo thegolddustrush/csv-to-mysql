@@ -54,9 +54,7 @@ def ProcessRow(row,num):
 
 def main(*args):
 
-	if len(args) == 2:
-		RowToObject(args[1])
-	elif len(args) != 3:
+	if  len(args) != 3:
 		print args[0], " csv_file mapping_file"
 	
 	
